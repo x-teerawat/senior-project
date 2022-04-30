@@ -8,21 +8,24 @@ step
 --------------------------------------------------
 Data
 http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsp/
-
-v1 Distance ที่สั้นที่สุด : 35135
-v2 Distance ที่สั้นที่สุด : 35135
-
+-----
+att48
+berlin52
+eil76
+kroA100
+pr76
+rd100
 --------------------------------------------------
-
 # ### Denominator
 # tsa = [[t0[i][j]**alpha for i in range(all_points)] for j in range(all_points)] # t square alpha
 # nsb = [[n[i][j]**beta for i in range(all_points)] for j in range(all_points)] # n square beta
 # txn = [[tsa[i][j] * nsb[i][j] for i in range(all_points)] for j in range(all_points)] # tsa * nsb
 # denominator = sum(sum(np.array(txn))) # sum(np.array(txn) : Sum of fist row, # sum(sum(np.array(txn)) : Sum of all rows
-
-
-eil76
-pr76
-rd100
-kroA100
-berlin52
+--------------------------------------------------
+att48
+v1 Distance ที่สั้นที่สุด : 35135.455097450664
+v2 Distance ที่สั้นที่สุด : 35135.455097450664
+Last update 29/04/65
+v1 Distance ที่สั้นที่สุด : 33574.41032751383
+v2 Distance ที่สั้นที่สุด : 35135.455097450664
+--------------------------------------------------
